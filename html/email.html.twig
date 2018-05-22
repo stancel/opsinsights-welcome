@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{subject}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
+        <style>
+            .container{/*border: 1px solid #666;*/margin: 0 auto;overflow: hidden;padding: 5px;max-width: 600px;}            
+            .img-responsive{max-width: 100%;}
+            .logo{width: 50%;}
+            .grey-bg{background-color: #666;color: #FFF;}
+            .p10{padding: 10px;}
+            .p20{padding: 20px;}
+            .br5{border-radius: 5px;}
+            .mr0{margin-right: 0px;}
+            .ml0{margin-left: 0px;}
+            .mt5{margin-top: 5px;}
+            .mb5{margin-bottom: 5px;}
+            .mr5{margin-right: 5px;}
+            .mt20{margin-top: 20px;}
+            h1{
+                font-family: Roboto, "Roboto Regular", "Roboto Light", "Roboto Medium", "Roboto Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                font-size: 20px;
+                line-height: 20px;
+            }
+            label {
+                font-family: Roboto, "Roboto Regular", "Roboto Light", "Roboto Medium", "Roboto Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                font-size: 20px;
+                line-height: 20px;
+                color: rgb(0, 0, 0);
+                font-weight: 700;
+                font-style: normal;
+            }
+            .features-text label {
+                color: rgb(102, 102, 102); 
+                display: block;
+            }
+            .btn {
+                color: rgb(0, 29, 168);
+                border: 2px solid rgb(0, 29, 168);
+                text-decoration: none;
+                border-radius: 16px;
+                padding: 3px 8px;
+                font-weight: 600;
+            }
+            .text {
+                font-size: 16px;
+                line-height: 18px;
+                color: rgb(102, 102, 102);                
+                font-weight: 500;
+                font-style: normal;
+                text-decoration: none;                
+            }
+            .light-grey-bg{
+                background-color: #ddd;
+            }
+            .hr-block{display: inline-block;}
+            .hr-block hr{height:5px;border:none;}
+            .hr-grey{width: 20%;}
+            .hr-grey hr{color:#666;background-color:#666;}
+            .hr-white{ width: 1%;}
+            .hr-white hr{color:#fff;background-color:#fff;}
+            .hr-blue{width: 79%;}
+            .hr-blue hr{color:rgb(0, 29, 168);background-color:rgb(0, 29, 168);}
+            
+            /* Extra small devices (portrait phones, less than 576px)*/
+            /* No media query since this is the default in Bootstrap*/
+
+            /* Small devices (landscape phones, 576px and up)*/
+            @media (max-width: 576px) { 
+                .logo {
+                    width: 90%;
+                }
+                .features-text{text-align: center;}
+                .features-text label{margin-top: 10px;}
+                .hr-grey{width: 31%;}
+                .hr-blue{width: 68%;}
+            }
+
+            /* Medium devices (tablets, 768px and up)*/
+            @media (min-width: 768px) {  }
+
+            /* Large devices (desktops, 992px and up)*/
+            @media (min-width: 992px) {  }
+
+            /* Extra large devices (large desktops, 1200px and up)*/
+            @media (min-width: 1200px) {  }
+            
+            /* Page specific css */
+            .features-img{
+                text-align: center;
+            }
+            .features-img i{font-size: 6em;}
+            .features-text{
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" data-slot-container="1">
+            <div class="col-12 text-center mt5 mb5">
+                <img src="https://processfast.com/app/uploads/2018/02/OpsInsights-ProcessFast-Logo.png" class="logo img-responsive">
+            </div>            
+            
+            <div class="col-12 text-center mt5 mb5 ">
+                <div class="text-center grey-bg p10" style="padding-top: 15px;">
+                    <h1>Welcome to Ops Insights!</h1>
+                </div>
+            </div>
+            
+            
+            <div class="col-12 text-left mt20 mb5">
+                <label>Welcome</label> <br/>
+                <div class="hr-block hr-grey"><hr/></div><div class="hr-block hr-white"><hr/></div><div class="hr-block hr-blue"><hr/></div>
+            </div>
+            <div class="col-12 text-left text" data-slot="text">
+                Hi Stacy,
+                <br/>
+                <br/>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br/>
+                <br/>
+                <div class="text-right">
+                    <a href="Javascript:void(0);" class="btn">Continue to Ops Insights</a>
+                </div>
+            </div>
+            
+            
+            <div class="col-12 text-left mt20 mb5">
+                <label>Features</label> <br/>
+                <div class="hr-block hr-grey"><hr/></div><div class="hr-block hr-white"><hr/></div><div class="hr-block hr-blue"><hr/></div>
+            </div>
+            <div class="col-12 text-left text" data-slot="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                
+            </div>
+            
+            <div class="col-12 mt20 mb5">
+                <div class="row">
+                    <div class="col-sm-6 text" >    
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-pie-outline" style="color:rgb(0, 29, 168);"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Dashboard</label> <br/>                        
+                            </div>                    
+                        </div>
+                    </div>                
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-list-outline" style="color:#107c10;"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Excel Reports</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-world-outline" style="color:rgb(0, 29, 168);"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Marketing Library</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-bookmarks-outline" style="font-size: 6em;"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Report Library</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">                                
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-clock-outline" style="color:rgb(0, 29, 168);"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Report Delivery</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-pulse" style="color:#ff3232;"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">KPI Alerts</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">    
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <div class="features-img col-12"><i class="ion-ios-chatboxes-outline" style="color:rgb(0, 29, 168);"></i></div>
+                            <div class="features-text col-12">
+                                <label class="text-center">Request Custom Reports</label> <br/>                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 text" >
+                        <div class="light-grey-bg p20 br5 mb5" >                    
+                            <!--<div class="features-img col-12"><i class="ion-ios-help-outline" style="font-size: 6em;"></i></div>-->
+                            <div class="features-text text-center col-12 p-0">
+                                <br/>
+                                <label class="text-center">Ops Insights Support</label> <br/>                        
+                                <div class="col-12 p-0">
+                                    <i class="ion-ios-email mr5" style="font-size: 16px;vertical-align: middle;"></i><a href="mailto:support@processfast.com">support@processfast.com</a>
+                                </div><br/>
+                                <div class="col-12 p-0 mt-1"><i class="ion-ios-telephone mr5" style="font-size: 16px;vertical-align: middle;"></i>803-712-3278</div>
+                                <br/><br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-12 text-left mt20 mb5">
+                <label>Contact</label> <br/>
+                <div class="hr-block hr-grey"><hr/></div><div class="hr-block hr-white"><hr/></div><div class="hr-block hr-blue"><hr/></div>
+            </div>
+            <div class="col-12 mb10">
+                <div class="row text"> 
+                    <div class="col-sm-4 text-md-left text-center text" style="font-weight: 700;">Support / Issues</div>
+                    <div class="col-sm-5 text-md-center text-center text"><i class="ion-ios-email mr5" style="font-size: 16px;vertical-align: middle;"></i><a href="mailto:support@processfast.com">support@processfast.com</a></div>
+                    <div class="col-sm-3 text-md-right text-center text"><i class="ion-ios-telephone mr5" style="font-size: 16px;vertical-align: middle;"></i>803-712-3278</div>
+                </div>
+                <div class="row text mt20"> 
+                    <div class="col-sm-4 text-md-left text-center text" style="font-weight: 700;">Sales</div>
+                    <div class="col-sm-5 text-md-center text-center text"><i class="ion-ios-email mr5" style="font-size: 16px;vertical-align: middle;"></i><a href="mailto:sales@processfast.com">sales@processfast.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="col-sm-3 text-md-right text-center text"><i class="ion-ios-telephone mr5" style="font-size: 16px;vertical-align: middle;"></i>803-712-3278</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
